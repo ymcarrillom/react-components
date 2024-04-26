@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-4, 16px) 0px;
+}
+
+.footer__content {
+    font-size: var(--font-xs);
+    color: var(--muted-foreground);
+}

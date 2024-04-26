@@ -1,0 +1,17 @@
+.hero__title {
+  color: var(--foreground, #171717);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px; /* 111.111% */
+}
+
+.hero__lead {
+  color: var(--muted-foreground, #525252);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}

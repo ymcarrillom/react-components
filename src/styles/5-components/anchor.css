@@ -1,0 +1,8 @@
+p > a {
+    color: var(--primary);
+    font-size: var(--font-base);
+    font-family: var(--text);
+    text-decoration: none;
+    transition: border-bottom-color 0.2s ease-in-out;
+    font-weight: 600;
+}

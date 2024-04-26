@@ -1,0 +1,63 @@
+.form {
+  background-color: var(--background);
+  padding: 1rem;
+  border-radius: var(--rounded-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+  width: var(--width-xs);
+}
+
+.fields-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  min-width: var(--width-xs);
+  gap: var(--spacing-2);
+}
+
+.form-field > label {
+  font-family: var(--text);
+  font-size: var(--font-sm);
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.form-field > select {
+  border-radius: var(--rounded-md);
+  padding: var(--spacing-2) var(--spacing-3);
+  gap: var(--spacing-1);
+  border: 1px solid var(--border);
+  background-color: var(--background);
+}
+
+.form-field > input,
+.form-field > textarea {
+  border-radius: var(--rounded-md);
+  border: 1px solid var(--border);
+  background-color: var(--background);
+  padding: var(--spacing-2) var(--spacing-3);
+}
+
+.form-field > input.is-invalid,
+.form-field > textarea.is-invalid {
+  outline: 1px solid var(--red-300);
+}
+
+.form-field > input.is-valid,
+.form-field > textarea.is-valid{
+  outline: 1px solid var(--green-300);
+}
+
+.form-field > small {
+  display: none;
+}
+
+.form-field > small.error {
+  color: var(--red-500);
+  display: block;
+}

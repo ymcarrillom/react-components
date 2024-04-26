@@ -1,0 +1,30 @@
+.card {
+    width: 160px;
+    height: 170px;
+    border-radius: var(--rounded);
+    background-color: var(--muted);
+    padding: var(--spacing-3) var(--spacing-4);
+}
+
+.card > img {
+    width: 90px;
+    height: 90px;
+    margin-inline: auto;
+}
+/* text-base/leading-7/regular */
+.card > .title {
+    font-family: var(--text);
+    font-size: var(--font-base);
+    font-weight: 400;
+    line-height: var(--leading-7);
+    color: var(--foreground);
+    text-align: center;
+}
+/* text-sm/leading-5/regular */
+.card > .description {
+    font-family: var(--text);
+    font-size: var(--font-sm);
+    font-weight: 400;
+    color: var(--muted-foreground);
+    text-align: center;
+}

@@ -1,0 +1,113 @@
+.article {
+  max-width: var(--width-4xl);
+  margin: 0 auto;
+}
+
+.article > h1 {
+  font-family: var(--display);
+  font-size: var(--font-4xl);
+  line-height: var(--leading-10);
+  font-weight: 800;
+}
+
+.article > h2 {
+  font-family: var(--display);
+  font-size: var(--font-2xl);
+  line-height: var(--leading-8);
+  font-weight: 800;
+  margin-bottom: var(--spacing-8);
+}
+
+.article > h3 {
+  font-family: var(--display);
+  font-size: var(--font-xl);
+  line-height: var(--leading-7);
+  font-weight: 800;
+  margin-block: var(--spacing-8);
+}
+
+.article > p {
+  font-family: var(--text);
+  font-size: var(--font-base);
+  line-height: var(--leading-7);
+  text-align: justify;
+}
+
+.article > pre {
+  background-color: var(--foreground);
+  border-radius: var(--rounded-md);
+  margin-block: var(--spacing-6);
+  padding: var(--spacing-4);
+  overflow-x: auto;
+  width: 100%
+}
+
+.article > pre > code {
+  font-family: var(--monospace);
+  font-size: var(--font-sm);
+  line-height: var(--leading-5);
+  color: var(--muted);
+}
+
+.article > figure > figcaption {
+  font-family: var(--text);
+  font-size: var(--font-sm);
+  color: #525252;
+}
+
+.article > fieldset {
+  margin-top: var(--spacing-5);
+  border: none;
+  display: flex;
+  gap: var(--spacing-2);
+  flex-direction: column;
+}
+
+.article > fieldset > legend {
+  color: var(--foreground);
+  font-family: var(--monospace);
+  font-size: var(--font-sm);
+  margin-bottom: var(--spacing-1);
+  line-height: var(--leading-4);
+  font-weight: 600;
+}
+
+.article > fieldset > label {
+  display: flex;
+  gap: var(--spacing-2);
+  align-items: center;
+  color: var(--foreground);
+  font-size: var(--font-sm);
+  font-family: var(--text);
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--muted);
+  padding-block: var(--spacing-12);
+  gap: var(--spacing-4);
+  border-radius: var(--rounded-lg);
+}
+
+.json {
+  padding: var(--spacing-4);
+  max-width: var(--width-2xl);
+}
+
+.json > pre {
+  background-color: var(--background);
+  font-family: var(--text);
+  font-size: var(--font-base);
+  font-weight: 400;
+  line-height: var(--leading-7);
+  max-width: var(--width-xl);
+  overflow-x: scroll;
+  max-width: 100%;
+  border-radius: var(--rounded-lg);
+}
+
+.bg--alternative {
+  background-color: var(--neutral-50);
+}
